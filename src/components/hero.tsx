@@ -41,7 +41,7 @@ function Hero() {
                 <div className="container flex flex-col items-center px-4 pt-20 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-black">
                     <img src="/project-izmir-assets/logo/project-logo.png" className="h-16 w-16" alt="" />
 
-                    <h1 className="text-5xl  mt-3    font-black">"<span className='text-red-500'>{text}</span>"</h1>
+                    <h1 className="text-5xl  mt-3    font-black">&quot;<span className='text-red-500'>{text}</span>&quot;</h1>
                     <p className="my-6 text-lg   xl:max-w-3xl  ">
                         Kiraların, mülklerin, giderlerin artık tek bir yerde.
                     </p>

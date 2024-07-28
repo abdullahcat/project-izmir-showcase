@@ -109,7 +109,7 @@ function AuthWidget() {
                         <div className="max-w-xl mb-6">
                             <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Giriş Yap</h2>
                             <p className="text-base text-gray-700 md:text-lg">E-Posta adresini ve şifreni kullanarak uygulamaya ister telefonundan, ister bilgisayarından giriş yap.</p>
-                            <p className="text-base pt-2 text-gray-700 md:text-xs">(Şifreni unutursan "Şifreni mi unuttun?" butonuna tıklayarak yeni şifre alabilirsin!)</p>
+                            <p className="text-base pt-2 text-gray-700 md:text-xs">Şifreni unutursan "Şifreni mi unuttun?" butonuna tıklayarak yeni şifre alabilirsin!</p>
                         </div>
                     </div>
                     <div className="relative xl:px-10 lg:w-1/2">
