@@ -13,11 +13,11 @@ function MapWidget() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                         <div>
-                            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold  tracking-wider    rounded-full bg-red-300">
+                            <p className="inline-block px-3 py-px mb-4 text-xs   tracking-wider    rounded-full bg-red-300">
                                 Harita
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
                             <span className="relative inline-block">
                                 <svg
                                     viewBox="0 0 52 24"
@@ -62,7 +62,7 @@ function MapWidget() {
                 <div className="flex flex-col items-center  justify-between lg:flex-row">
                     <div className="my-10 lg:max-w-lg lg:pr-5 xl:order-last lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Kolay ve Hızlı Arama</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Kolay ve Hızlı Arama</h2>
                             <p className="text-base text-gray-700 md:text-lg">
                                 Haritamızın adres ve mülk arama özelliği sayesinde, aradığınız mülkleri ve adresleri hızlıca bulun. Tek yapmanız gereken, arama çubuğuna adres veya mülk ismini yazmak.
 
@@ -80,7 +80,7 @@ function MapWidget() {
                 <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                     <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6 text-start lg:text-left">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">İkonlarla Yönünü Bul</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">İkonlarla Yönünü Bul</h2>
                             <p className="text-base text-gray-700 md:text-lg">Yerleşim, ticari ve arazi ikonları ile mülklerini daha kolay takip et.</p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@ function MapWidget() {
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="mb-10 xl:order-last lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülk Kartları</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülk Kartları</h2>
                             <p className="text-base text-gray-700 md:text-lg">Mülk kartları sayesinde her bir mülkün detaylarına hızlıca erişebilirsiniz. Bu kartlar, mülklerinizin temel bilgilerini ve önemli ayrıntılarını tek bir bakışta görmenizi sağlar.</p>
                         </div>
                     </div>

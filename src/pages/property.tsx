@@ -15,7 +15,7 @@ export default function Page() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
 
                             Kullanıcı Dostu Mülk Yönetimi
                         </h2>
@@ -41,7 +41,7 @@ export default function Page() {
                     <div className="mx-auto sm:text-center lg:max-w-2xl">
                         <div className="max-w-xl   md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            <h2 className="max-w-lg mb-6  text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 1. Dosyalar
                             </h2>
 
@@ -60,7 +60,7 @@ export default function Page() {
                     <div className="flex flex-col items-center  justify-center lg:flex-row">
                         <div className="my-10 lg:max-w-lg  xl:order-last lg:mb-0">
                             <div className="max-w-xl xl:text-left text-center mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Dosya Ekle
+                                <h2 className="max-w-lg mb-6  text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Dosya Ekle
                                 </h2>
                                 <p className="text-base mb-6 text-gray-700 md:text-lg">
                                     Dökümanlar sekmesine giderek mülkünüze ait önemli belgeleri ekleyebilirsiniz. Dosya türleri; kontrat, tapu senedi ve diğer olmak üzere üçe ayrılır. Kontrat türünde kontratın başlangıç ve bitiş tarihlerini belirtebilirsiniz.
@@ -82,7 +82,7 @@ export default function Page() {
                     <div className="mx-auto sm:text-center lg:max-w-2xl">
                         <div className="max-w-xl   md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            <h2 className="max-w-lg mb-6  text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 2. Kiralar
                             </h2>
 
@@ -102,7 +102,7 @@ export default function Page() {
                     <div className="flex flex-col items-center  justify-center lg:flex-row">
                         <div className="my-10 lg:max-w-lg  xl:order-last lg:mb-0">
                             <div className="max-w-xl xl:text-left text-center mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Kira Ödemesi Ekle
+                                <h2 className="max-w-lg mb-6  text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Kira Ödemesi Ekle
                                 </h2>
                                 <p className="text-base mb-6 text-gray-700 md:text-lg">
                                     Kiralarını kolayca takip edebilmek için kira ödemeleri ekleyin! Kira ödemeleri eklemek için miktar, geçerli olduğu tarih ve ödeme tarihi girin. Ödemelerin zamanını muhasebe sayfasından, geçerlilik tarihine göre kiraları kira takibi sayfasından takip edebilirsiniz.
@@ -124,7 +124,7 @@ export default function Page() {
                     <div className="mx-auto sm:text-center lg:max-w-2xl">
                         <div className="max-w-xl   md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            <h2 className="max-w-lg mb-6  text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 3. Gelirler
                             </h2>
 
@@ -144,7 +144,7 @@ export default function Page() {
                     <div className="flex flex-col items-center  justify-center lg:flex-row">
                         <div className="my-10 lg:max-w-lg  xl:order-last lg:mb-0">
                             <div className="max-w-xl xl:text-left text-center mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Gelir Ekle
+                                <h2 className="max-w-lg mb-6  text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Gelir Ekle
                                 </h2>
                                 <p className="text-base mb-6 text-gray-700 md:text-lg">
                                     Gelirler sekmesine giderek mülklerinizden elde ettiğiniz gelirleri takip edebilirsiniz. Yeni bir gelir eklemek için "Yeni Gelir Ekle" butonuna tıklayın, başlık, açıklama, miktar ve tarih bilgilerini girin ve "Ekle" butonuna tıklayarak gelir kaydını ekleyin.
@@ -167,7 +167,7 @@ export default function Page() {
                     <div className="mx-auto sm:text-center lg:max-w-2xl">
                         <div className="max-w-xl   md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            <h2 className="max-w-lg mb-6  text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 4. Giderler
                             </h2>
 
@@ -187,7 +187,7 @@ export default function Page() {
                     <div className="flex flex-col items-center  justify-center lg:flex-row">
                         <div className="my-10 lg:max-w-lg  xl:order-last lg:mb-0">
                             <div className="max-w-xl xl:text-left text-center mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Gider Ekle
+                                <h2 className="max-w-lg mb-6  text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Gider Ekle
                                 </h2>
                                 <p className="text-base mb-6 text-gray-700 md:text-lg">
                                     Giderler sekmesine giderek mülklerinizle ilgili harcamaları yönetebilirsiniz. Yeni bir gider eklemek için "Yeni Gider Ekle" butonuna tıklayın, başlık, açıklama, miktar ve tarih bilgilerini girin ve "Ekle" butonuna tıklayarak gider kaydını ekleyin.
@@ -209,7 +209,7 @@ export default function Page() {
                     <div className="mx-auto sm:text-center lg:max-w-2xl">
                         <div className="max-w-xl   md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            <h2 className="max-w-lg mb-6  text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 5. Notlar
                             </h2>
 
@@ -229,7 +229,7 @@ export default function Page() {
                     <div className="flex flex-col items-center  justify-center lg:flex-row">
                         <div className="my-10 lg:max-w-lg  xl:order-last lg:mb-0">
                             <div className="max-w-xl xl:text-left text-center mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Not Ekle
+                                <h2 className="max-w-lg mb-6  text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Not Ekle
                                 </h2>
                                 <p className="text-base mb-6 text-gray-700 md:text-lg">
                                     Notlar sekmesine giderek mülklerinizle ilgili önemli notları ekleyebilirsiniz. Yeni bir not eklemek için "Yeni Not Ekle" butonuna tıklayın; başlığını, not içeriğini yazın ve "Ekle" butonuna tıklayarak notu ekleyin.
@@ -251,7 +251,7 @@ export default function Page() {
                     <div className="mx-auto sm:text-center lg:max-w-2xl">
                         <div className="max-w-xl   md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
-                            <h2 className="max-w-lg mb-6  font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            <h2 className="max-w-lg mb-6   text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                                 6. Kira Değişiklikleri
                             </h2>
 
@@ -271,7 +271,7 @@ export default function Page() {
                     <div className="flex flex-col items-center  justify-center lg:flex-row">
                         <div className="my-10 lg:max-w-lg  xl:order-last lg:mb-0">
                             <div className="max-w-xl xl:text-left text-center mb-6">
-                                <h2 className="max-w-lg mb-6 font-sans text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Kira Değişikliği Ekle
+                                <h2 className="max-w-lg mb-6  text-2xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Yeni Kira Değişikliği Ekle
                                 </h2>
                                 <p className="text-base mb-6 text-gray-700 md:text-lg">
                                     Kira Değişimi sekmesine giderek kira miktarındaki değişiklikleri yönetebilirsiniz. Yeni bir kira değişimi eklemek için "Yeni Kira Değişimi Ekle" butonuna tıklayın, yeni kira miktarını ve değişim tarihini girin ve "Ekle" butonuna tıklayarak kira değişimini ekleyin.
@@ -290,7 +290,7 @@ export default function Page() {
 
             <hr className="my-20" />
             <div className="    lg:max-w-screen-xl flex text-black flex-col items-center justify-center px-4 pb-20   mx-auto sm:max-w-xl md:max-w-full ">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Hangi Bilgileri Kaydediyoruz?</h2>
+                <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Hangi Bilgileri Kaydediyoruz?</h2>
 
                 <div className="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
                     <dl className="-my-3 divide-y divide-gray-100 text-sm">

@@ -13,11 +13,11 @@ function AuthWidget() {
             <div className="flex flex-col items-center max-w-2xl md:px-8">
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                     <div>
-                        <p className="inline-block px-3 py-px mb-4 text-xs font-semibold  tracking-wider    rounded-full bg-red-300">
+                        <p className="inline-block px-3 py-px mb-4 text-xs   tracking-wider    rounded-full bg-red-300">
                             Giriş
                         </p>
                     </div>
-                    <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                    <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
                         <span className="relative inline-block">
                             <svg
                                 viewBox="0 0 52 24"
@@ -56,7 +56,7 @@ function AuthWidget() {
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Kayıt Ol</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Kayıt Ol</h2>
                             <p className="text-base text-gray-700 md:text-lg">Platformu dış etkenlerden korumak için tasarlanmış giriş altyapısı.</p>
                             <ul className='list-disc md:text-lg text-base space-y-2 pt-5 pl-4'>
                                 <li className="text-gray-600">Adını soyadını gir.</li>
@@ -77,7 +77,7 @@ function AuthWidget() {
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="lg:order-last mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">E-Postanı Onayla</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">E-Postanı Onayla</h2>
                             <p className="text-base text-gray-700 md:text-lg">Kusursuz güvenlik sağlamak için onaylanmamış E-Posta ile kayıt olmaya izin vermiyoruz.</p>
                             <p className="text-base pt-2 text-gray-700 md:text-xs">(E-Postanızı onayladıktan sonra sayfayı yenileyin.)</p>
                         </div>
@@ -92,7 +92,7 @@ function AuthWidget() {
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Bekleme Modundasınız!</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Bekleme Modundasınız!</h2>
                             <p className="text-base text-gray-700 md:text-lg">Kayıt işleminiz tamamlandı, hesabınız bekleme moduna alındı ve geriye son bir adım kaldı. Yöneticiniz size erişim izni verecek!</p>
                             <div className='text-base text-gray-700 md:text-lg pt-2 underline'>Yöneticinizden yetkilendirme isteyin.</div>
                         </div>
@@ -107,7 +107,7 @@ function AuthWidget() {
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="mb-10 xl:order-last lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Giriş Yap</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Giriş Yap</h2>
                             <p className="text-base text-gray-700 md:text-lg">E-Posta adresini ve şifreni kullanarak uygulamaya ister telefonundan, ister bilgisayarından giriş yap.</p>
                             <p className="text-base pt-2 text-gray-700 md:text-xs">Şifreni unutursan "Şifreni mi unuttun?" butonuna tıklayarak yeni şifre alabilirsin!</p>
                         </div>

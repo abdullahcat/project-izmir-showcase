@@ -12,7 +12,7 @@ function Footer() {
                     <Link href={'/'}>
                         <div className="flex flex-row items-center justify-center   sm:justify-start">
                             <img src="/project-izmir-assets/logo/project-logo.png" className="h-10 w-10" alt="" />
-                            <blockquote className="text-2xl   font-semibold italic text-center text-black">
+                            <blockquote className="text-2xl       text-center text-black">
                                 Project <span className="before:block ml-1 before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-400 relative inline-block">
                                     <span className="relative text-white">İzmir</span>
                                 </span>
@@ -21,7 +21,7 @@ function Footer() {
 
                         </div>
                     </Link>
-                    <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
+                    <p className="mt-4 text-center   text-gray-500 lg:mt-0 lg:text-right">
                         <Link className="hover:underline" href={"https://artesdeilusion.com"}>Artes de Ilusión &copy;</Link> 2024. Tüm Hakları Saklıdır.
                     </p>
                 </div>

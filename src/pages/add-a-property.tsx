@@ -15,7 +15,7 @@ export default function Page() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
 
                             Yeni Mülkünüzü Kolayca Ekleyin
                         </h2>
@@ -37,7 +37,7 @@ export default function Page() {
                 <div className="flex flex-col items-center  justify-between lg:flex-row">
                     <div className="my-10 lg:max-w-lg lg:pr-5 xl:order-last lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülkünüz kirada mı?</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülkünüz kirada mı?</h2>
                             <p className="text-base   text-gray-700 md:text-lg">
                                 Mülkünü kirada ise kira bilgilerini ekleyerek kira durumunu takip edebilirsiniz.
                             </p>
@@ -64,7 +64,7 @@ export default function Page() {
                         </div>
                         <div className="max-w-xl mb-6">
 
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Haritadan Mülkünün Konumunu Seç</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Haritadan Mülkünün Konumunu Seç</h2>
                             <p className="text-base mb-6 text-gray-700 md:text-lg">
                                 Mülkünüzü haritada görüntüleyebilmek için konum ekle ikonuna tıklayarak mülkünüzün haritadaki konumunu seçin.                            </p>
 

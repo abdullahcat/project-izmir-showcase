@@ -13,11 +13,11 @@ function PropertiesWidget() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                         <div>
-                            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold  tracking-wider    rounded-full bg-red-300">
+                            <p className="inline-block px-3 py-px mb-4 text-xs   tracking-wider    rounded-full bg-red-300">
                                 Mülkler
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
                             <span className="relative inline-block">
                                 <svg
                                     viewBox="0 0 52 24"
@@ -62,7 +62,7 @@ function PropertiesWidget() {
                 <div className="flex flex-col items-center  justify-between lg:flex-row">
                     <div className="my-10 lg:max-w-lg lg:pr-5 xl:order-last lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülk Bilgileri Bir Tık Uzağında</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülk Bilgileri Bir Tık Uzağında</h2>
                             <p className="text-base mb-6 text-gray-700 md:text-lg">
                                 Mülklerinizi tek bir yerde listeleyerek, detaylı bilgilerini görüntüleyin.
                             </p>
@@ -92,7 +92,7 @@ function PropertiesWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <Search></Search>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Arama</h6>
+                            <h6 className="mb-2  leading-5">Arama</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Mülklerin arasında arama yap.
                             </p>
@@ -105,7 +105,7 @@ function PropertiesWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <OtherHousesOutlined></OtherHousesOutlined>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Mülk Türü</h6>
+                            <h6 className="mb-2  leading-5">Mülk Türü</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Mülkün türüne göre filtrele.
                             </p>
@@ -116,7 +116,7 @@ function PropertiesWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <LocationOnOutlined></LocationOnOutlined>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Şehir</h6>
+                            <h6 className="mb-2  leading-5">Şehir</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Mülklerin bulunduğu şehirlere göre filtrele.
                             </p>
@@ -131,7 +131,7 @@ function PropertiesWidget() {
                 <div className="flex flex-col items-center  justify-center lg:flex-row">
                     <div className="my-10 lg:max-w-lg lg:pr-5 xl:order-last lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülk Bilgileri Bir Tık Uzağında</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Mülk Bilgileri Bir Tık Uzağında</h2>
                             <p className="text-base mb-6 text-gray-700 md:text-lg">
                                 Mülklerinizi tek bir yerde listeleyerek, detaylı bilgilerini görüntüleyin.
                             </p>

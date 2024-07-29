@@ -13,11 +13,11 @@ function AccountingWidget() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                         <div>
-                            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold  tracking-wider    rounded-full bg-red-300">
+                            <p className="inline-block px-3 py-px mb-4 text-xs   tracking-wider    rounded-full bg-red-300">
                                 Muhasebe
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
                             <span className="relative inline-block">
                                 <svg
                                     viewBox="0 0 52 24"
@@ -63,7 +63,7 @@ function AccountingWidget() {
                 <div className="flex flex-col items-center justify-center lg:flex-row lg:justify-between">
                     <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6 text-start lg:text-left">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Finansal İşlemleri Kolayca Yönetin</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Finansal İşlemleri Kolayca Yönetin</h2>
                             <p className="text-base text-gray-700 md:text-lg">                                Gelir ve giderlerinizi kolayca ekleyerek mali durumunuzu takip edin. Her türlü gelir ve gideri kaydedebilir, hangi tarihte ve ne kadar ödeme yapıldığını veya alındığını görebilirsiniz.
                             </p>
                         </div>
@@ -78,7 +78,7 @@ function AccountingWidget() {
                 <div className="flex flex-col items-center  justify-between lg:flex-row">
                     <div className="my-10 lg:max-w-lg lg:pr-5 xl:order-last lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">İstatistiksel Analiz</h2>
+                            <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">İstatistiksel Analiz</h2>
                             <p className="text-base text-gray-700 md:text-lg">
                                 Gelir ve giderlerinizi detaylı grafikler ve tablolarla analiz edin. Bu özellik, mali durumunuzu daha iyi anlamanızı sağlar ve bütçenizi planlamada yardımcı olur. Gelir ve giderlerinizin zaman içindeki değişimini ve dağılımını kolayca takip edebilirsiniz.
                             </p>
@@ -94,7 +94,7 @@ function AccountingWidget() {
             <div className="px-4 text-black py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
-                    <h2 className="max-w-lg mb-6 font-sans text-3xl  text-center leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <h2 className="max-w-lg mb-6  text-3xl  text-center leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                         Hepsi bir yerde!
                     </h2>
                     <p className="text-base text-center text-gray-700 md:text-lg">
@@ -107,7 +107,7 @@ function AccountingWidget() {
                             <DoneAll className='w-8 h-8'></DoneAll>
 
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">Kiralar</h6>
+                        <h6 className="mb-2  leading-5">Kiralar</h6>
 
 
                     </div>
@@ -116,7 +116,7 @@ function AccountingWidget() {
                             <DoneAll className='w-8 h-8'></DoneAll>
 
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">Gelirler</h6>
+                        <h6 className="mb-2  leading-5">Gelirler</h6>
 
 
                     </div>
@@ -124,7 +124,7 @@ function AccountingWidget() {
                         <div className="flex items-center justify-center w-24 h-24 mb-4 text-5xl font-extrabold rounded-full   bg-red-300 sm:mx-auto">
                             <DoneAll className='w-8 h-8'></DoneAll>
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">Giderler</h6>
+                        <h6 className="mb-2  leading-5">Giderler</h6>
 
 
                     </div>
@@ -135,7 +135,7 @@ function AccountingWidget() {
                 <div className="mx-auto sm:text-center lg:max-w-2xl">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
-                        <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                             Finansal Takvim
                         </h2>
                         <p className="text-base text-gray-700 md:text-lg">
@@ -155,7 +155,7 @@ function AccountingWidget() {
             </div>
 
             <div className="   lg:max-w-screen-xl flex text-black flex-col items-center justify-center px-4 pb-10   mx-auto sm:max-w-xl md:max-w-full ">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Veri Bilgileri</h2>
+                <h2 className="max-w-lg mb-6  text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Veri Bilgileri</h2>
 
                 <div className="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
                     <dl className="-my-3 divide-y divide-gray-100 text-sm">
@@ -163,16 +163,16 @@ function AccountingWidget() {
                             <dt className="font-medium text-gray-900">Kira</dt>
                             <ul className='list-disc pl-4'>
                                 <li>
-                                    <span className='font-semibold'>Değer:</span> Kira tutarı.
+                                    <span className=''>Değer:</span> Kira tutarı.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Geçerlilik Tarihi:</span> Kiranın hangi ay için yatırıldığını belirten tarih.
+                                    <span className=''>Geçerlilik Tarihi:</span> Kiranın hangi ay için yatırıldığını belirten tarih.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Ödeme Tarihi:</span> Kiranın ödendiği tarih.
+                                    <span className=''>Ödeme Tarihi:</span> Kiranın ödendiği tarih.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Mülk:</span> Kiranın ait olduğu mülk.
+                                    <span className=''>Mülk:</span> Kiranın ait olduğu mülk.
                                 </li>
                             </ul>
                         </div>
@@ -181,19 +181,19 @@ function AccountingWidget() {
                             <dt className="font-medium text-gray-900">Gider</dt>
                             <ul className='list-disc pl-4'>
                                 <li>
-                                    <span className='font-semibold'>Değer:</span> Gider tutarı.
+                                    <span className=''>Değer:</span> Gider tutarı.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>İsim:</span> Giderin ismi.
+                                    <span className=''>İsim:</span> Giderin ismi.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Açıklama:</span> Giderin açıklması.
+                                    <span className=''>Açıklama:</span> Giderin açıklması.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Tarih:</span> Harcamanın yapıldığı tarih.
+                                    <span className=''>Tarih:</span> Harcamanın yapıldığı tarih.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Mülk:</span> Giderin ait olduğu mülk.
+                                    <span className=''>Mülk:</span> Giderin ait olduğu mülk.
                                 </li>
                             </ul>
                         </div>
@@ -202,19 +202,19 @@ function AccountingWidget() {
                             <dt className="font-medium text-gray-900">Gelir</dt>
                             <ul className='list-disc pl-4'>
                                 <li>
-                                    <span className='font-semibold'>Değer:</span> Gelir tutarı.
+                                    <span className=''>Değer:</span> Gelir tutarı.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>İsim:</span> Gelirin ismi.
+                                    <span className=''>İsim:</span> Gelirin ismi.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Açıklama:</span> Gelirin açıklması.
+                                    <span className=''>Açıklama:</span> Gelirin açıklması.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Tarih:</span> Harcamanın yapıldığı tarih.
+                                    <span className=''>Tarih:</span> Harcamanın yapıldığı tarih.
                                 </li>
                                 <li>
-                                    <span className='font-semibold'>Mülk:</span> Gelirin ait olduğu mülk.
+                                    <span className=''>Mülk:</span> Gelirin ait olduğu mülk.
                                 </li>
                             </ul>
                         </div>

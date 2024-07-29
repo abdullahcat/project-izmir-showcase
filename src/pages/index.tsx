@@ -61,7 +61,7 @@ const HomePage: React.FC = () => {
             </Head>
             <Hero />
             <Tab.Group selectedIndex={selectedTab} onChange={setSelectedTab}>
-                <Tab.List className="flex m-4 xl:m-10 font-bold transition duration-300 ease-in-out bg-gray-50 rounded-full">
+                <Tab.List className="flex m-4 xl:m-10   transition duration-300 ease-in-out bg-gray-50 rounded-full">
                     {tabs.map((tab, index) => (
                         <Tab
                             key={index}

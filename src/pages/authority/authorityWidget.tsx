@@ -13,11 +13,11 @@ function AuthorityWidget() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                         <div>
-                            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold  tracking-wider    rounded-full bg-red-300">
+                            <p className="inline-block px-3 py-px mb-4 text-xs   tracking-wider    rounded-full bg-red-300">
                                 Yetkiler
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6   text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
                             <span className="relative inline-block">
                                 <svg
                                     viewBox="0 0 52 24"
@@ -62,7 +62,7 @@ function AuthorityWidget() {
                 <div className="flex flex-col items-center  justify-between lg:flex-row">
                     <div className="my-10 lg:max-w-lg lg:pr-5 xl:order-last lg:mb-0">
                         <div className="max-w-xl mb-6">
-                            <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Güvenli ve Esnek Erişim</h2>
+                            <h2 className="max-w-lg mb-6   text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Güvenli ve Esnek Erişim</h2>
                             <p className="text-base text-gray-700 md:text-lg">
                                 Kullanıcılarınızın güvenliğini sağlamak için esnek yetkilendirme seçenekleri sunuyoruz. Her kullanıcıya görevlerine uygun yetkiler vererek, veri güvenliğinizi en üst düzeyde tutun.
                             </p>
@@ -75,7 +75,7 @@ function AuthorityWidget() {
                 </div>
             </div>
             <div className="   lg:max-w-screen-xl flex text-black flex-col items-center justify-center px-4 pb-10   mx-auto sm:max-w-xl md:max-w-full ">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Erişim Bilgileri</h2>
+                <h2 className="max-w-lg mb-6   text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Erişim Bilgileri</h2>
 
                 <div className="flow-root rounded-lg border border-gray-100 py-3 shadow-sm">
                     <dl className="-my-3 divide-y divide-gray-100 text-sm">

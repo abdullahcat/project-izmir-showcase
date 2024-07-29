@@ -11,11 +11,11 @@ function RentWidget() {
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
                     <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
                         <div>
-                            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold  tracking-wider    rounded-full bg-red-300">
+                            <p className="inline-block px-3 py-px mb-4 text-xs   tracking-wider    rounded-full bg-red-300">
                                 Kira Takibi
                             </p>
                         </div>
-                        <h2 className="max-w-lg mb-6 font-sans text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
+                        <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
                             <span className="relative inline-block">
                                 <svg
                                     viewBox="0 0 52 24"
@@ -63,7 +63,7 @@ function RentWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <Search></Search>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Arama</h6>
+                            <h6 className="mb-2  leading-5">Arama</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Kiradaki mülkler arasında arama yap.
                             </p>
@@ -74,7 +74,7 @@ function RentWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <Sort></Sort>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Sırala</h6>
+                            <h6 className="mb-2  leading-5">Sırala</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Kirada olan mülkler arasında isme göre veya gecikme süresine göre sıralayabilirsin.
                             </p>
@@ -85,7 +85,7 @@ function RentWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <Schedule></Schedule>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Gecikme</h6>
+                            <h6 className="mb-2  leading-5">Gecikme</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Gecikme sürelerine göre filtrele.
                             </p>
@@ -96,7 +96,7 @@ function RentWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <OtherHousesOutlined></OtherHousesOutlined>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Mülk Türü</h6>
+                            <h6 className="mb-2  leading-5">Mülk Türü</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Mülkün türüne göre filtrele.
                             </p>
@@ -107,7 +107,7 @@ function RentWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <LocationOnOutlined></LocationOnOutlined>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Şehir</h6>
+                            <h6 className="mb-2  leading-5">Şehir</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Mülklerin bulunduğu şehirlere göre filtrele.
                             </p>
@@ -118,7 +118,7 @@ function RentWidget() {
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <PaymentsOutlined></PaymentsOutlined>
                             </div>
-                            <h6 className="mb-2 font-semibold leading-5">Ödemeler</h6>
+                            <h6 className="mb-2  leading-5">Ödemeler</h6>
                             <p className="mb-3 text-sm text-gray-900">
                                 Gecikmesi bulunup bulunmadığına göre mülkleri ayır.                            </p>
                         </div>
@@ -127,7 +127,7 @@ function RentWidget() {
             </div>
             <div className="px-4 text-black py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="max-w-xl text-center mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-                    <h2 className="max-w-lg mb-6 font-sans text-3xl leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                    <h2 className="max-w-lg mb-6  text-3xl leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                         Önemli Değişkenler
                     </h2>
                     <p className="text-base text-gray-700 md:text-lg">
@@ -139,7 +139,7 @@ function RentWidget() {
                         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-red-300">
                             <DateRange className="w-8 h-8" />
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">Başlangıç Tarihi</h6>
+                        <h6 className="mb-2  leading-5">Başlangıç Tarihi</h6>
                         <p className="max-w-md mb-3 text-sm text-gray-900">
                             Kiranızı takip etmeye başlamak istediğiniz tarih.
                         </p>
@@ -148,7 +148,7 @@ function RentWidget() {
                         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-red-300">
                             <Today className="w-8 h-8" />
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">Ödeme Günü</h6>
+                        <h6 className="mb-2  leading-5">Ödeme Günü</h6>
                         <p className="max-w-md mb-3 text-sm text-gray-900">
                             Kiranın ödenmesi gereken gün.
                         </p>
@@ -157,7 +157,7 @@ function RentWidget() {
                         <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-red-300">
                             <CurrencyExchangeOutlined className="w-8 h-8" />
                         </div>
-                        <h6 className="mb-2 font-semibold leading-5">Kira Değişimi</h6>
+                        <h6 className="mb-2  leading-5">Kira Değişimi</h6>
                         <p className="max-w-md mb-3 text-sm text-gray-900">
                             Geçerli olduğu tarih ve kiranın ne kadar olduğunu belirten değişken.
                         </p>
