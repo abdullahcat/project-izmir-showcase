@@ -52,7 +52,7 @@ function PropertiesWidget() {
 
                 </div>
                 <img
-                    src="/project-izmir-assets/property/properties.png"
+                    src="/project-izmir-assets/properties/properties.png"
                     className="w-full  max-w-screen-sm mx-auto object-cover rounded md:w-auto lg:max-w-screen-md"
                     alt=""
                 />
@@ -81,13 +81,13 @@ function PropertiesWidget() {
                     </div>
                     <Link
                         className="relative justify-end xl:px-10 lg:w-1/2" href={'/property'}>
-                        <img className="object-cover xl:w-96 w-full hover:-translate-y-3   hover:cursor-pointer  transition duration-300 ease-in-out hover:shadow-2xl shadow-lg rounded-3xl" src="/project-izmir-assets/property/property-card.png" alt="" />
+                        <img className="object-cover  w-96 hover:-translate-y-3   hover:cursor-pointer  transition duration-300 ease-in-out hover:shadow-2xl shadow-lg rounded-3xl" src="/project-izmir-assets/properties/property-card.png" alt="" />
                     </Link>
                 </div>
             </div>
             <div className="px-4 text-black py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8  ">
-                <div className="grid row-gap-8 sm:row-gap-0 sm:grid-cols-2 lg:grid-cols-3">
-                    <div className="p-8   sm:border-r">
+                <div className="grid row-gap-8 sm:row-gap-0   lg:grid-cols-3">
+                    <div className="p-8  lg:border-r">
                         <div className="max-w-md text-center">
                             <div className="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded-full bg-red-300 text-black sm:w-16 sm:h-16">
                                 <Search></Search>
@@ -150,42 +150,12 @@ function PropertiesWidget() {
                     </div>
 
                     <Link href={'/add-a-property'} className="relative justify-end lg:w-1/2">
-                        <img className="object-cover xl:w-80 w-full hover:-translate-y-3 transition duration-300 ease-in-out hover:cursor-pointer  hover:shadow-2xl shadow-lg rounded-3xl" src="/project-izmir-assets/property/addproperty.png" alt="" />
+                        <img className="object-cover  w-80   hover:-translate-y-3 transition duration-300 ease-in-out hover:cursor-pointer  hover:shadow-2xl shadow-lg rounded-3xl" src="/project-izmir-assets/properties/addproperty.png" alt="" />
                     </Link>
 
                 </div>
             </div>
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-                <div className="relative mb-6 sm:mx-auto md:mb-10 md:max-w-md lg:max-w-lg">
-                    <img
-                        className="object-cover w-full rounded shadow-lg  "
-                        src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-                        alt=""
-                    />
 
-                </div>
-                <div className="mb-16 md:mb-0 md:max-w-xl sm:mx-auto md:text-center">
-                    <h2 className="mb-5 font-sans text-3xl   tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                        Tüm Finansal İşlemleri Takvimde Görüntüleyin
-                    </h2>
-                    <p className="mb-5 text-base text-gray-700 md:text-lg">
-                        Gelir ve giderlerinizi takvim üzerinde kolayca takip edin. Bu özellik, tüm mali işlemlerinizi tarih bazında organize etmenizi sağlar ve belirli bir dönemdeki tüm işlemleri tek bir bakışta görmenizi mümkün kılar.
-                    </p>
-                    <div className="flex items-center md:justify-center">
-                        <div className="flex flex-wrap justify-start gap-2">
-                            <Link
-                                href={'/calendar'}
-                                className="relative inline-block px-5 py-2 border bg-red-500 border-red-500 text-white     rounded-full space-x-2 flex flex-row   hover:border-red-600 hover:-translate-y-1 transition duration-300 ease-in-out hover:bg-red-600"
-                            >
-                                Daha Fazla
-                            </Link>
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
 
         </section>
 

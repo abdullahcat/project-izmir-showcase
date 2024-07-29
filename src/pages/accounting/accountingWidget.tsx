@@ -131,7 +131,28 @@ function AccountingWidget() {
                 </div>
             </div>
 
+            <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+                <div className="mx-auto sm:text-center lg:max-w-2xl">
+                    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 
+                        <h2 className="max-w-lg mb-6 font-sans text-3xl  leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                            Finansal Takvim
+                        </h2>
+                        <p className="text-base text-gray-700 md:text-lg">
+                            Gelir ve giderlerinizi takvim üzerinde görüntüleyin. Bu özellik sayesinde, mali işlemlerinizi tarih bazında organize edebilir ve belirli bir dönemdeki tüm işlemleri bir bakışta görebilirsiniz.
+
+                        </p>
+                    </div>
+                    <div className="mb-4     lg:mb-6">
+                        <img
+                            className="object-cover   rounded-lg  shadow-2xl    "
+                            src="/project-izmir-assets/accounting/calendar.png"
+                            alt=""
+                        />
+                    </div>
+
+                </div>
+            </div>
 
             <div className="   lg:max-w-screen-xl flex text-black flex-col items-center justify-center px-4 pb-10   mx-auto sm:max-w-xl md:max-w-full ">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Veri Bilgileri</h2>

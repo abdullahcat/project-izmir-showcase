@@ -22,7 +22,7 @@ function Footer() {
                         </div>
                     </Link>
                     <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
-                        <Link className="hover:underline" href={"https://artesdeilusion.com"}>Artes de Ilusión&copy;</Link> 2024. Tüm Hakları Saklıdır.
+                        <Link className="hover:underline" href={"https://artesdeilusion.com"}>Artes de Ilusión &copy;</Link> 2024. Tüm Hakları Saklıdır.
                     </p>
                 </div>
             </div>

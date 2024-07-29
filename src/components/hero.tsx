@@ -47,10 +47,10 @@ function Hero() {
                     </p>
                     <div className="flex flex-wrap justify-center gap-2">
                         <Link
-                            href={'http://sales.theclassbase.com'}
+                            href={'http://projectizmir.artesdeilusion.com'}
                             className="relative inline-block px-5 py-2 border bg-red-500 border-red-500 text-white hover:-translate-y-1   rounded-full space-x-2 flex flex-row   hover:border-red-600 transition duration-300 ease-in-out hover:bg-red-600"
                         >
-                            Konsol
+                            Başla
                         </Link>
 
 

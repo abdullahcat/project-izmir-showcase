@@ -52,7 +52,7 @@ function AuthWidget() {
 
 
             </div>
-            <div className="bg-red-100 rounded-lg px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+            <div className="  rounded-lg px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="mb-10 lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">
@@ -94,7 +94,7 @@ function AuthWidget() {
                         <div className="max-w-xl mb-6">
                             <h2 className="max-w-lg mb-6 font-sans text-3xl tracking-tight text-gray-900 sm:text-4xl sm:leading-none">Bekleme Modundasınız!</h2>
                             <p className="text-base text-gray-700 md:text-lg">Kayıt işleminiz tamamlandı, hesabınız bekleme moduna alındı ve geriye son bir adım kaldı. Yöneticiniz size erişim izni verecek!</p>
-                            <Link href={''} className='text-base text-gray-700 md:text-lg pt-2 underline'>Yöneticinizden yetkilendirme isteyin.</Link>
+                            <div className='text-base text-gray-700 md:text-lg pt-2 underline'>Yöneticinizden yetkilendirme isteyin.</div>
                         </div>
                     </div>
                     <div className="relative xl:px-10 lg:w-1/2">
@@ -103,7 +103,7 @@ function AuthWidget() {
                 </div>
             </div>
 
-            <div className=" bg-red-100 rounded-lg px-4 my-10 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+            <div className="rounded-lg px-4 my-10 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
                 <div className="flex flex-col items-center justify-between lg:flex-row">
                     <div className="mb-10 xl:order-last lg:max-w-lg lg:pr-5 lg:mb-0">
                         <div className="max-w-xl mb-6">

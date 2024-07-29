@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
     const renderContent = (index: number) => {
         switch (index) {
             case 0:
-                return <PropertiesWidget></PropertiesWidget>; <AuthWidget></AuthWidget>
+                return <AuthWidget></AuthWidget>
             case 1:
                 return <MapWidget></MapWidget>;
             case 2:
@@ -84,7 +84,7 @@ const HomePage: React.FC = () => {
             </Tab.Group>
             <div
 
-                className={`fixed bottom-4 right-4 hover:cursor-pointer    p-3 shadow-lg transition-opacity  bg-red-500 border-red-500 text-white hover:-translate-y-1   rounded-full space-x-2 flex flex-row   hover:border-red-600   duration-300 ease-in-out hover:bg-red-600 ${showButton ? 'opacity-100' : 'opacity-0'
+                className={`fixed bottom-4 right-4 hover:cursor-pointer hover:shadow-2xl   p-3 shadow-lg transition-opacity  bg-red-500 border-red-500 text-white hover:-translate-y-1   rounded-full space-x-2 flex flex-row   hover:border-red-600   duration-300 ease-in-out hover:bg-red-600 ${showButton ? 'opacity-100' : 'opacity-0'
                     }`}
                 onClick={scrollToTop}
             >
