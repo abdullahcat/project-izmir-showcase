@@ -13,7 +13,7 @@ export default function Page() {
             </Head>
             <div className="bg-red-100 pb-10 flex text-black flex-col items-center justify-center px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:pt-32 md:px-0">
                 <div className="flex flex-col items-center max-w-2xl md:px-8">
-                    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                    <div className="max-w-xl mb-10 md:mx-auto  text-center lg:max-w-2xl md:mb-12">
 
                         <h2 className="max-w-lg mb-6  text-5xl   leading-none tracking-tight text-gray-900   md:mx-auto">
 
