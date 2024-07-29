@@ -37,10 +37,13 @@ function Hero() {
 
     return (
         <section  >
-            <div className="container h-screen flex flex-col items-center px-4 pt-20 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-black">
-                <img src="/project-izmir-assets/logo/project-logo.png" className="h-16 w-16" alt="" />
-
-                <h1 className="text-5xl mt-3 " >&quot;<span className='text-red-500'>{text}</span>&quot;</h1>
+            <div className="container flex flex-col items-center px-4 pt-20 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-black">
+                <img src="/project-izmir-assets/logo/project-logo.png" className="h-16 w-16 mb-4" alt="" />
+                <blockquote className="text-5xl       text-center text-black">
+                    Project <span className="before:block   before:absolute before:-inset-2 before:-skew-y-3 before:bg-red-400 relative inline-block">
+                        <span className="relative text-black">İzmir</span>
+                    </span>
+                </blockquote>
                 <p className="my-6 text-lg xl:max-w-3xl  ">
                     Kiraların, mülklerin, giderlerin artık tek bir yerde.
                 </p>
